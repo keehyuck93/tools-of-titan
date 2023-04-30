@@ -1,0 +1,26 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "importOrder": [
+    "react(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@pages/(.*)$",
+    "^@components/(.*)$",
+    "^@apis/(.*)$",
+    "^@hooks/(.*)$",
+    "^@queryKeys/(.*)$",
+    "^@routers/(.*)$",
+    "^@slices/(.*)$",
+    "^@selectors/(.*)$",
+    "^@store(.*)$",
+    "^@utils(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
