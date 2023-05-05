@@ -11,7 +11,8 @@ export default defineConfig({
     alias: {
       '@components': path.resolve(__dirname, './src/components'),
       '@pages': path.resolve(__dirname, './src/pages'),
-      '@routers': path.resolve(__dirname, './src/routers')
+      '@routers': path.resolve(__dirname, './src/routers'),
+      '@stories': path.resolve(__dirname, './src/stories')
     }
   },
   plugins: [react(), viteTsconfigPaths(), svgrPlugin()],

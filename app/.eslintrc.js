@@ -11,6 +11,7 @@ module.exports = {
     'prettier',
     'airbnb',
     'airbnb/hooks',
+    'plugin:storybook/recommended',
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
